@@ -20,52 +20,133 @@
     <script src="/js/index.js" defer></script>
   </head>
   <body>
-    <!-- color boxes (eventually) -->
-    <div class="colors">
-      <div class="lime"></div>
-      <div class="magenta"></div>
-      <div class="magenta50"></div>
-      <div class="white"></div>
-      <div class="tan"></div>
-      <div class="teal"></div>
-      <div class="cyan"></div>
-      <div class="black"></div>
-    </div>
+    <!-- header -->
+    <header class="header_primary">
+      <a href="/">
+        <img src="/assets/svg/fem-maglime-logo.svg" alt="website logo" />
+      </a>
+    </header>
 
-    <!-- type -->
-    <h1>This is Heading 1</h1>
-    <h2>This is Heading 2</h2>
-    <h3>This is Heading 3</h3>
-    <h4>This is Heading 4</h4>
-    <h5>This is Heading 5</h5>
-    <h6>This is Heading 6</h6>
-    <p>
-      This is a paragraph. Lorem ipsum dolor sit, amet consectetur adipisicing
-      elit. Quisquam, pariatur.
-    </p>
-    <a href="#">A text link by itself</a>
-    <ul>
-      <li>This is an unordered list.</li>
-      <li>Second thing.</li>
-      <li>Third thing.</li>
-    </ul>
-    <strong>Strongly emphasized text</strong>
-    <ol>
-      <li>This is an ordered list.</li>
-      <li>Second thing.</li>
-      <li>Third thing.</li>
-    </ol>
-    <em>Emphasized text</em>
-    <blockquote>
-      <p>A paragraph inside of a blockquote, said by a famous person.</p>
-    </blockquote>
+    <!-- hero img -->
+    <img
+      src="/assets/images/fem-blindfold-1200.jpg"
+      alt="blind people"
+      class="banner_img"
+    />
 
-    <figure>
-      <img
-        src="https://assets.codepen.io/296057/fem-blindfold-475.jpg"
-        alt="The three men of Magenta Lime, blindfolded."
-      />
-      <figcaption>Magenta Lime will rock your world.</figcaption>
-    </figure>
+    <!-- concerts -->
+    <main class="main-content">
+      <h1 class="h3">Tour</h1>
+
+      <div class="concerts">
+        <p class="concert">
+          <time>31 July 2023</time>
+          <span class="club">The IVY</span> Oakheart, CA
+        </p>
+
+        <p class="concert">
+          <time>02 August 2023</time>
+          <span class="club">Club Ecstasy</span> Longdale, CA
+        </p>
+
+        <p class="concert">
+          <time>08 August 2023</time>
+          <span class="club">The Summit</span> Carran, OR
+        </p>
+
+        <p class="concert">
+          <time>10 August 2023</time>
+          <span class="club">Empire</span> Goldenleaf, CA
+        </p>
+
+        <p class="concert">
+          <time>18 August 2023</time>
+          <span class="club">The Thunder</span> Stathford, OR
+        </p>
+
+        <p class="concert">
+          <time>06 September 2023</time>
+          <span class="club">The Gate</span> Monmouth, WA
+        </p>
+
+        <p class="concert">
+          <time>11 September 2023</time>
+          <span class="club">Horizon</span> Colkirk, WA
+        </p>
+      </div>
+    </main>
+
+    <!-- Top concerts -->
+    <aside class="reviews">
+      <div class="review">
+        <img
+          src="/assets/images/fem-purple-arms.jpg"
+          alt="people enjoying the purple theme concert"
+          class="img_concert"
+        />
+        <figure>
+          <blockquote>
+            Just WOW <br />
+            <img
+              src="/assets/svg/fem-star.svg"
+              alt="four star rating"
+              class="star"
+            />
+            <img src="/assets/svg/fem-star.svg" alt="" class="star" />
+            <img src="/assets/svg/fem-star.svg" alt="" class="star" />
+            <img src="/assets/svg/fem-star.svg" alt="" class="star" />
+          </blockquote>
+          <figcaption><cite>The Staple</cite></figcaption>
+        </figure>
+      </div>
+      <div class="review">
+        <img
+          src="/assets/images/fem-fireworks.jpg"
+          alt="people enjoying the purple theme concert"
+          class="img_concert"
+        />
+        <figure>
+          <blockquote>
+            I can't stop listening<br />
+            <img
+              src="/assets/svg/fem-star.svg"
+              alt="four star rating"
+              class="star"
+            />
+            <img src="/assets/svg/fem-star.svg" alt="" class="star" />
+            <img src="/assets/svg/fem-star.svg" alt="" class="star" />
+            <img src="/assets/svg/fem-star.svg" alt="" class="star" />
+          </blockquote>
+          <figcaption><cite>Draft Media</cite></figcaption>
+        </figure>
+      </div>
+      <div class="review">
+        <img
+          src="/assets/images/fem-purple-arms.jpg"
+          alt="people enjoying the purple theme concert"
+          class="img_concert"
+        />
+        <figure>
+          <blockquote>
+            Best. Album. Ever <br />
+            <img
+              src="/assets/svg/fem-star.svg"
+              alt="four star rating"
+              class="star"
+            />
+            <img src="/assets/svg/fem-star.svg" alt="" class="star" />
+            <img src="/assets/svg/fem-star.svg" alt="" class="star" />
+            <img src="/assets/svg/fem-star.svg" alt="" class="star" />
+          </blockquote>
+          <figcaption><cite>Gold Spin</cite></figcaption>
+        </figure>
+      </div>
+    </aside>
+
+    <!-- footer -->
+    <footer class="footer_primary">
+      <a href="/">contact</a>
+      <p>@2023 | Made by <a href="/">snowin</a></p>
+    </footer>
   </body>
 </html>
